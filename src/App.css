@@ -1,0 +1,326 @@
+body{
+  margin: 0;
+  background-color: #0B1823;
+}
+
+.hero{
+  background-image: url('./Assets/sec1_1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+
+}
+
+.r1{
+  min-height: 85vh;
+}
+
+.r12{
+  min-height: 100vh;
+}
+.logo{
+  width: 300px;
+  margin: 30px 20px 20px 40px;
+}
+.inp{
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  width: 300px;
+}
+
+.footerm{
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.inp input{
+  background-color: #0B1823;
+  border-radius: none;
+  border: 2px solid #661D33;
+}
+.soc{
+  display: flex;
+}
+.soc img{
+  width: 30px;
+  margin: 10px;
+}
+.emi{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #1FA099;
+}
+
+.med{
+  color: white;
+}
+.hee{
+  color: #DDB892;
+}
+.last p{
+  color: #DDB892;
+}
+
+.intr{
+  font-size:4rem;
+  color: #DDB892;
+}
+.gl{
+  font-size: 8vw;
+  color: #661D33;
+}
+
+.s2{
+  display: flex;
+  align-items: center;
+  
+}
+.line1{
+  width: 40vw;
+  height: 2px;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+  background-color: #DDB892;
+}
+
+.s2 p{
+  /* padding-left: 5%; */
+  padding-right: 5%;
+  color: #DDB892;
+}
+
+.but{
+  margin-bottom: 40px;
+  width: 120px;
+  height: 40px;
+  font-size: large;
+  background-color: #661D33;
+  color: #DDB892;
+  border: none;
+}
+.s1{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  /* margin: 20px; */
+}
+
+.s11{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 20px; */
+}
+.rhi{
+  width: 60%;
+}
+
+.rhii{
+  width: 90%;
+}
+
+.sec2{
+  background-image: url('./Assets/sec2.png');
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sec4{
+  background-image: url('./Assets/sec4.png');
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.sec3{
+  display: flex;
+  flex-wrap: wrap-reverse;
+  background-image: url('./Assets/sec3.png');
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.r13{
+  min-height: 100vh;
+}
+
+.sr1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 20px; */
+}
+
+.sr1 img{
+  width: 70%;
+}
+
+.sr2{
+  display: flex;
+  align-items: center;
+  /* justify-content: flex-end; */
+}
+
+.play{
+  font-size: 5.2vw;
+  letter-spacing: 4px;
+  color: #661D33;
+}
+
+.how{
+  font-size: 4rem;
+  color: #DDB892;
+}
+
+.line3
+{
+  width: 35vw;
+  margin-top: 1vw;
+  margin-bottom: 3vw;
+  height: 2px;
+  background-color: #DDB892;
+}
+
+.sr2 p{
+  padding-left: 25%;
+  color: #DDB892;
+}
+.sec4{
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  
+}
+.haqh1{
+  color: #661D33;
+  letter-spacing: 3px;
+  font-size: 3rem;
+}
+
+.accordion-button
+{
+  background-color: #0B1823;
+  color: #661D33 !important;
+  /* font-weight: 900; */
+  border-radius: none !important;
+  height: 80px;
+  border: 2px solid #1FA099;
+  font-size: 1.3rem;
+  
+}
+
+.roadmap{
+  margin-top: 10vh;
+  margin-bottom: 10vh
+}
+.accordion-item:first-of-type{
+  border: none;
+  border-radius:0px!important;
+}
+.accordion-button:focus{
+  box-shadow: none;
+}
+
+.accordion{
+  border-radius: none!important;
+}
+
+.accordion-button:not(.collapsed){
+  background-color: #0B1823;
+}
+
+.accordion-body{
+  color: #DDB892 !important;
+  background-color: #0B1823;
+  border: 2px solid #1FA099;
+}
+.lline
+{
+  width: 250px;
+  
+  height: 1px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #DDB892;
+
+}
+.haqp{
+  margin-bottom: 40px;
+  color: #DDB892;
+}
+
+.cont{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cont2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cont2 h5{
+  color: #1FA099;
+}
+
+.cont2 p{
+  color: #DDB892;
+}
+.cont2 div{
+  margin: 20px;
+}
+.img1a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1a img{
+  width: 80%;
+  /* display: none; */
+  margin: 50px;
+}
+
+@media only screen and (max-width: 600px)
+{
+
+  .play{
+    font-size: 10vw;
+    letter-spacing: 0px;
+    color: #661D33;
+  }
+  
+  .how{
+    font-size: 3rem;
+    color: #DDB892;
+  }
+  .sr2 p{
+    margin-top: 5px;
+    padding-left: 0%;
+  }
+
+  .intr{
+    font-size:2.8rem;
+  }
+  .gl{
+    font-size: 15vw;
+  }
+  .logo{
+    width: 200px;
+  }
+}
