@@ -1,70 +1,201 @@
-# Getting Started with Create React App
+***
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# gbot
 
-## Available Scripts
+**A Website for the Telegram Web3 Gaming Bot**
 
-In the project directory, you can run:
+***
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Setup \& Installation](#setup--installation)
+- [Available Commands](#available-commands)
+- [Deployment](#deployment)
+- [Customizing the App](#customizing-the-app)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+***
 
-### `npm test`
+## Overview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**gbot** is a React-based website created for a Telegram Web3 Gaming Bot. It provides users with an intuitive interface for accessing and managing gaming bot features on Telegram, leveraging modern React development practices.
 
-### `npm run build`
+## Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- ⚡ **Modern React** app with fast, responsive UI.
+- 🔗 **Web3 integration** for gaming interactions.
+- 🤖 **Telegram bot connectivity** (integration points as needed).
+- 🔒 **Optimized build** for deployment.
+- 🛠️ **Customizable configuration**.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Tech Stack
 
-### `npm run eject`
+| Technology | Usage |
+| :-- | :-- |
+| React | Frontend Framework |
+| JavaScript | App Logic (65.4%) |
+| CSS | Styling (27.6%) |
+| HTML | Markup (7.0%) |
+| Create React App | Project Boilerplate |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+***
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Project Structure
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+gbot/
+├── node_modules/
+├── public/
+│   └── index.html
+├── src/
+│   ├── App.js
+│   ├── index.js
+│   └── [other components]
+├── package.json
+└── README.md
+```
 
-## Learn More
+- **public/**: Static assets and main HTML entry point.
+- **src/**: React source code.
+- **package.json**: Dependency and script definitions.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+***
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Setup \& Installation
 
-### Code Splitting
+1. **Clone the repository**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+git clone https://github.com/shubhamkatyaan/gbot.git
+cd gbot
+```
 
-### Analyzing the Bundle Size
+2. **Install dependencies**:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install
+```
 
-### Making a Progressive Web App
+3. **Environment Variables (if applicable)**:
+    - If your app uses environment variables (e.g., for Web3/network configuration), create a `.env` file in the root folder and define your variables:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```
+REACT_APP_API_URL=https://your-api.url
+REACT_APP_TELEGRAM_TOKEN=your-telegram-token
+```
 
-### Advanced Configuration
+    - See [Create React App: Adding Custom Environment Variables](https://facebook.github.io/create-react-app/docs/adding-custom-environment-variables).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+***
 
-### Deployment
+## Available Commands
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Start Development Server**
+    - Runs the app in development mode:
 
-### `npm run build` fails to minify
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
+- **Run Unit Tests**
+    - Launches the test runner:
+
+```
+npm test
+```
+
+Interactive watch mode by default.
+- **Create Production Build**
+    - Bundles and optimizes the app for deployment:
+
+```
+npm run build
+```
+
+Outputs files to the `build` directory.
+- **Eject from Create React App**
+    - Advanced: copy build/config files for full control:
+
+```
+npm run eject
+```
+
+*Warning: Ejecting is irreversible.*
+
+***
+
+## Deployment
+
+1. **Build the app:**
+
+```bash
+npm run build
+```
+
+2. **Deploy the contents of the `build` directory** on your hosting platform (e.g., Vercel, Netlify, GitHub Pages, custom server).
+3. For deployment guides, see [CRA Deployment Docs](https://facebook.github.io/create-react-app/docs/deployment).
+
+***
+
+## Customizing the App
+
+- **Code Splitting**: For performance, see [Code Splitting Guide](https://facebook.github.io/create-react-app/docs/code-splitting).
+- **Progressive Web App**: Turn your app into a PWA for offline support. [Guide](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app).
+- **Bundle Analysis**: Check build size. [Analyze](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size).
+- **Advanced Configuration**: Customize Webpack, Babel, ESLint. [Docs](https://facebook.github.io/create-react-app/docs/advanced-configuration).
+
+***
+
+## Troubleshooting
+
+- **Build fails to minify?**
+    - Reference: [Troubleshooting Minify Failures](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify).
+- **Common Issues**
+    - Node version mismatch
+    - Missing dependencies (`npm install` fixes most issues)
+    - Incorrect environment variables
+
+***
+
+## Contributing
+
+1. Fork the repo
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+***
+
+## License
+
+This project is currently **unlicensed**. Add a LICENSE file to specify one if desired.
+
+***
+
+## Contact
+
+- **Maintainer:** [shubhamkatyaan](https://github.com/shubhamkatyaan)
+- **Issues:** [GitHub Issues](https://github.com/shubhamkatyaan/gbot/issues)
+
+***
+
+## Resources
+
+- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React Documentation](https://react.dev/)
+
+***
+
+If you provide information about the bot features, API endpoints, or Web3 connections, sections can be added for those as well. Let me know if you need a more technical breakdown or sample code references!
+
